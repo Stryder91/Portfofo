@@ -4,4 +4,21 @@ article {
 body {
     background: linear-gradient(to right, #0f0c29,#302b63,#24243e);
     color: white;
+    font-size: 1.3em;
+}
+
+h6 {
+    color: gold;
+}
+.logo{
+    width: 50px;
+}
+button{
+    margin-top: 10px;
+}
+.aa {
+    background: #302b63;
+    margin: 0;
+    width: 100%;
+    color:  white;
 }

@@ -8,11 +8,12 @@ body {
     width: 100%;
     height: 100%;
     font-family: "Dosis-Medium";
+    background: linear-gradient(to right, #0f0c29,#302b63,#24243e);
+    color: white;
+    font-size: 1.3em;
 }
 img {
     width: 100%;
-    height: auto;
-    
 }
 
 .partI{
@@ -25,17 +26,15 @@ img {
 .Main {
     height:100vh;
 }
-.cadre{
-    border-radius: 50%;
-}
 .photo {
     background: grey;
-    width: 100%;
+    width: 80%;
     border-radius: 50%;
+    box-shadow: 2px 1px 3px gold;   
 }
 
 .arrow img {
-    margin-top: 5vh;
+    margin-top: 15vh;
     width: 130vh;
 }
 .arrow {
@@ -58,7 +57,14 @@ img {
     border-bottom: 1px solid gold;
     padding-bottom: 3vh;
     margin: 0 auto;
-    
+}
+@media(max-width:812px){
+    .partII{
+        margin-top: 250px;
+    }
+    .articleList{
+        margin-top: 200px;
+    }
 }
 .screen {
     background: grey;
@@ -68,24 +74,47 @@ img {
 }
 .project1 {
     background-image: url(../image/bakery.png); 
+    background-size: cover;
 }
 .project2 {
     background-image: url(../image/morpion.png); 
+    background-size: cover;
 }
 .project3 {
     background-image: url(../image/host.png); 
+    background-size: cover;
 }
 .project4 {
     background-image: url(../image/calculatrice.png); 
+    background-size: cover;
 }
 .project5 {
     background-image: url(../image/daily_tiger.png); 
+    background-size: cover;
 }
-.project6 {
- 
-}
-/* Partie projets */
+
 
 .partIII div a article {
     margin-bottom: 5%;
 }
+
+article {  
+    box-shadow: 3px 1px 5px black;
+}
+
+h6 {
+    color: gold;
+}
+.logo{
+    width: 50px;
+}
+button{
+    margin-top: 10px;
+}
+.aa {
+    background: #302b63;
+    margin: 0;
+    width: 100%;
+    color:  white;
+}
+
