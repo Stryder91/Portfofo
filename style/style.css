@@ -1,0 +1,91 @@
+@font-face{
+    font-family : "Dosis-Medium";
+    src : url('../style/Dosis-Medium.ttf');
+}
+
+body {
+    margin: 50px;
+    width: 100%;
+    height: 100%;
+    font-family: "Dosis-Medium";
+}
+img {
+    width: 100%;
+    height: auto;
+    
+}
+
+.partI{
+    border-right: gold 1px solid;
+    height: 35vh;
+}
+.partII {
+    height: 35vh;
+}
+.Main {
+    height:100vh;
+}
+.cadre{
+    border-radius: 50%;
+}
+.photo {
+    background: grey;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.arrow img {
+    margin-top: 5vh;
+    width: 130vh;
+}
+.arrow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.mat {
+    border: 1px solid grey;
+    margin: 5%;
+    border-radius: 5px;
+}
+.matTitle{
+    border-bottom: 1px solid grey;
+    padding: 5px;   
+    font-weight: bold;
+}
+.partII p {
+    border-bottom: 1px solid gold;
+    padding-bottom: 3vh;
+    margin: 0 auto;
+    
+}
+.screen {
+    background: grey;
+    height: 320px;
+    background-size: cover;
+    background-position: center; 
+}
+.project1 {
+    background-image: url(../image/bakery.png); 
+}
+.project2 {
+    background-image: url(../image/morpion.png); 
+}
+.project3 {
+    background-image: url(../image/host.png); 
+}
+.project4 {
+    background-image: url(../image/calculatrice.png); 
+}
+.project5 {
+    background-image: url(../image/daily_tiger.png); 
+}
+.project6 {
+ 
+}
+/* Partie projets */
+
+.partIII div a article {
+    margin-bottom: 5%;
+}
