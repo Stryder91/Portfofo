@@ -26,6 +26,7 @@ body {
 }
 
 .center {
+    display:flex;
     justify-content: center;
     align-items: center;
 }
@@ -124,7 +125,13 @@ border-right: 2px solid white;
 /* Partie II*/
 .partII {
   background: linear-gradient(to top, #F5A7A7, white);
-  padding-top: 7vh;
+
+}
+.myprojects {
+  width: 75%;
+  margin:0;
+  padding-top: 5vh;
+  background-color: lightcoral;
 }
 .partII_title{
   text-align: center;
@@ -133,26 +140,22 @@ border-right: 2px solid white;
   flex-wrap: wrap;
 }
 .project1 {
-  width: 60vh;
-  height: 30vh;
   background-image: url('../image/project1.png');
-  background-size: cover;
-  margin: 5vh;
-  box-shadow: 3px 3px 3px #4a4948;
 }
 .project2 {
-  width: 60vh;
-  height: 30vh;
   background-image: url('../image/project2.png');
-  background-size: cover;
-  margin: 5vh;
-  box-shadow: 3px 3px 3px #4a4948;
 }
 .project3 {
+  background-image: url('../image/project3.png');
+}
+.projects{
   width: 60vh;
   height: 30vh;
-  background-image: url('../image/project3.png');
   background-size: cover;
   margin: 5vh;
-  box-shadow: 3px 3px 3px #4a4948;
+  box-shadow: 5px 5px 5px #4a4948;
+}
+.projects:hover{
+  width: 61vh;
+  height: 31vh;
 }
