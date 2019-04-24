@@ -1,17 +1,17 @@
 @font-face{
-    font-family : "Dosis";
-    src : url('../style/Dosis-Medium.ttf');
+    font-family : "text";
+    src : url('../style/PatrickHand-Regular.ttf');
 }
 @font-face{
-    font-family : "paris";
-    src : url('../style/Courgette-Regular.ttf');
+    font-family : "titles";
+    src : url('../style/MeriendaOne-Regular.ttf');
 }
 body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     font-size: 1.3rem;
-    font-family : "Dosis";
+    font-family : "text";
 }
 .partI , .partII , .partX {
     width: 100%;
@@ -35,7 +35,8 @@ body {
 
 /* Partie 0*/
 .partX {
-    background: linear-gradient(to bottom, lightcoral,lightcoral, #F5A7A7, white);
+    background: linear-gradient(to bottom, lightcoral,lightcoral, #F5A7A7, white), url('../image/effect.png');
+    background-size: cover;
 }
 .navbar {
   justify-content: space-between;
@@ -52,7 +53,7 @@ body {
   margin:0 auto;
 }
 .maintitle h1{
-  font-family : "paris";
+  font-family : "titles";
 }
 .maintitle h1 , .maintitle h5 {
   margin:0.5vh;
@@ -91,11 +92,7 @@ border-right: 2px solid white;
     width:auto;
     border-radius: 50%;
 }
-.partI_id2 {
-    margin: 10vh;
-    justify-content: space-between;
 
-}
 
 .parcours {
     width: 50vh;
@@ -109,29 +106,20 @@ border-right: 2px solid white;
 }
 
 .partI_id2 img {
-    width:100%;
-    height:auto;
+    width:25vh;
+    margin: 0 auto;
 }
-
-
-.square1 {
+.partI_id2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.square {
+  background-color: lightcoral;
   width: 30vh;
-    height: 100% auto;
-    background-color: aquamarine;
-    padding: 0%;
+  height: 30vh;
 }
-.square2 {
-    width: 30vh;
-    height: auto;
-    background-color: aquamarine;
-    padding: 0%;
-}
-.square3 {
-    width: 30vh;
-    height: auto;
-    background-color: aquamarine;
-  padding: 0%;
-}
+/*gold colour : d7b21d */
 /* Partie II*/
 .partII {
     background: linear-gradient(to top, #F5A7A7, white);
