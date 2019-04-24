@@ -118,12 +118,33 @@ border-right: 2px solid white;
 .partI_id2{
   margin: 0;
   padding: 0;
-  position: relative;
 }
-
 
 
 /* Partie II*/
 .partII {
   background: linear-gradient(to top, #F5A7A7, white);
+  margin-top: 10vh;
+  flex-wrap: wrap;
+}
+.project1 {
+  width: 40%;
+  height: 40%;
+  background-image: url('../image/project1.png');
+  background-size: cover;
+  margin: 5vh;
+}
+.project2 {
+  width: 40%;
+  height: 40%;
+  background-image: url('../image/project2.png');
+  background-size: cover;
+  margin: 5vh;
+}
+.project3 {
+  width: 40%;
+  height: 40%;
+  background-image: url('../image/project3.png');
+  background-size: cover;
+  margin: 5vh;
 }
