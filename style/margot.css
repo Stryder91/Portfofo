@@ -1,0 +1,95 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+.partI , .partII {
+    width: 100%;
+    height: 100vh;
+    padding: 10vh 10vh 10vh 10vh;
+}
+
+.center {
+    justify-content: center;
+    align-items: center;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+.rowrow{
+    display: flex;
+    flex-direction: row;
+}
+/* Partie I*/
+.partI {
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+}
+/* 1ere division*/
+.partI_id {
+
+}
+.partI_id1 {
+    border-right: 1px solid black;
+    width: 40%;
+    height: auto;
+    justify-content: space-around;
+}
+.partI_id2 {
+    margin-top: 10vh;
+    justify-content: space-between;
+
+}
+
+.parcours {
+    width: 50vh;
+    height: 45vh;
+    background-color: white;
+
+}
+.parcours h5 {
+    text-align: center;
+
+}
+
+.partI_img1 {
+    background-image: url(../image/hetic.png);
+    background-size: cover;
+    width: 40vh;
+    height: 50%;
+}
+.partI_img2 {
+    background-image: url(../image/hetic.png);
+    background-size: cover;
+    width: 30vh;
+    height: 50%;
+}
+.partI_img3 {
+    background-image: url(../image/hetic.png);
+    background-size: cover;
+    width: 20vh;
+    height: 50%;
+}
+
+.square1 {
+    width: 50vh;
+    height: auto;
+    background-color: aquamarine;
+}
+.square2 {
+    width: 50vh;
+    height: auto;
+    background-color: aquamarine;
+}
+.square3 {
+    width: 50vh;
+    height: auto;
+    background-color: aquamarine;
+}
+/* Partie II*/
+.partII {
+    background-color: lightcoral;
+}
