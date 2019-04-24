@@ -88,7 +88,7 @@ border-right: 2px solid white;
   margin: 5vh;
 }
 .partI_id1 {
-    border-right: 1px solid black;
+    border-right: 1.5px solid lightcoral;
     width: 60%;
     height: auto;
     justify-content: space-around;
@@ -124,7 +124,7 @@ border-right: 2px solid white;
 /* Partie II*/
 .partII {
   background: linear-gradient(to top, #F5A7A7, white);
-  padding-top: 10vh;
+  padding-top: 7vh;
 }
 .partII_title{
   text-align: center;
