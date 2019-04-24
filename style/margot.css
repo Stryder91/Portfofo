@@ -1,5 +1,6 @@
 /*gold colour : d7b21d
-pink colour : F18585*/
+pink colour : F18585
+light pink : #F5A7A7*/
 @font-face{
     font-family : "text";
     src : url('../style/Handlee-Regular.ttf');
@@ -129,9 +130,18 @@ border-right: 2px solid white;
 }
 .myprojects {
   width: 75%;
+  height: auto;
   margin:0;
-  padding-top: 5vh;
-  background-color: lightcoral;
+  padding-top: 2vh;
+  /*
+  background-color: white;
+  border: 10px solid #FBDBDB;
+  */
+  background-color: #FDEEEE;
+  border: 2vh solid white;
+
+  border-radius: 10vh;
+  background-blend-mode: screen;
 }
 .partII_title{
   text-align: center;
@@ -147,6 +157,9 @@ border-right: 2px solid white;
 }
 .project3 {
   background-image: url('../image/project3.png');
+}
+.project4 {
+  background-image: url('../image/project4.png');
 }
 .projects{
   width: 60vh;
