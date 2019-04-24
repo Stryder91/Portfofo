@@ -1,12 +1,22 @@
+@font-face{
+    font-family : "Dosis";
+    src : url('../style/Dosis-Medium.ttf');
+}
+@font-face{
+    font-family : "paris";
+    src : url('../style/Courgette-Regular.ttf');
+}
 body {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
+    font-size: 1.3rem;
+    font-family : "Dosis";
 }
-.partI , .partII {
+.partI , .partII , .partX {
     width: 100%;
     height: 100vh;
-    padding: 10vh 10vh 10vh 10vh;
+    padding: 5vh 5vh 5vh 5vh;
 }
 
 .center {
@@ -27,6 +37,38 @@ body {
     background-color: lightgrey;
     display: flex;
     flex-direction: column;
+}
+/* Partie 0*/
+.partX {
+    background-image: url(../image/backgroundmain.jpg);
+    background-size: cover;
+}
+.navbar {
+  justify-content: space-between;
+}
+.navbar a {
+  text-decoration: none;
+  color:white;
+  font-weight: bold;
+}
+.maintitle {
+  color: white;
+  text-align: center;
+  height: 70vh;
+  margin:0 auto;
+}
+.maintitle h1{
+  font-family : "paris";
+}
+.maintitle h1 , .maintitle h5 {
+  margin:0.5vh;
+}
+.maintitle h5 {
+  padding: 3vh;
+  width: 50%;
+}
+.maintitle span :first-child {
+border-right: 2px solid white;
 }
 /* 1ere division*/
 .partI_id {
