@@ -124,27 +124,35 @@ border-right: 2px solid white;
 /* Partie II*/
 .partII {
   background: linear-gradient(to top, #F5A7A7, white);
-  margin-top: 10vh;
+  padding-top: 10vh;
+}
+.partII_title{
+  text-align: center;
+}
+.partII_links{
   flex-wrap: wrap;
 }
 .project1 {
-  width: 40%;
-  height: 40%;
+  width: 60vh;
+  height: 30vh;
   background-image: url('../image/project1.png');
   background-size: cover;
   margin: 5vh;
+  box-shadow: 3px 3px 3px #4a4948;
 }
 .project2 {
-  width: 40%;
-  height: 40%;
+  width: 60vh;
+  height: 30vh;
   background-image: url('../image/project2.png');
   background-size: cover;
   margin: 5vh;
+  box-shadow: 3px 3px 3px #4a4948;
 }
 .project3 {
-  width: 40%;
-  height: 40%;
+  width: 60vh;
+  height: 30vh;
   background-image: url('../image/project3.png');
   background-size: cover;
   margin: 5vh;
+  box-shadow: 3px 3px 3px #4a4948;
 }
