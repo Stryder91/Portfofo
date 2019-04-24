@@ -1,10 +1,16 @@
+/*gold colour : d7b21d
+pink colour : F18585*/
 @font-face{
     font-family : "text";
-    src : url('../style/PatrickHand-Regular.ttf');
+    src : url('../style/Handlee-Regular.ttf');
+}
+@font-face{
+    font-family : "semi_titles";
+    src : url('../style/PetitFormalScript-Regular.ttf');
 }
 @font-face{
     font-family : "titles";
-    src : url('../style/MeriendaOne-Regular.ttf');
+    src : url('../style/Parisienne-Regular.ttf');
 }
 body {
     display: flex;
@@ -54,6 +60,8 @@ body {
 }
 .maintitle h1{
   font-family : "titles";
+  text-align: center;
+  font-size: 6rem;
 }
 .maintitle h1 , .maintitle h5 {
   margin:0.5vh;
@@ -74,9 +82,7 @@ border-right: 2px solid white;
   height:auto;
 }
 /* Partie I*/
-.partI {
-    background-color: white;
-}
+
 /* 1ere division*/
 .partI_id {
   margin: 5vh;
@@ -106,20 +112,21 @@ border-right: 2px solid white;
 }
 
 .partI_id2 img {
-    width:25vh;
+    width:100%;
     margin: 0 auto;
+    padding: 0;
+    position: absolute;
+    top:0px;
+    left: 0px;
 }
-.partI_id2 {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+.partI_id2{
+  margin: 0;
+  padding: 0;
+  position: relative;
 }
-.square {
-  background-color: lightcoral;
-  width: 30vh;
-  height: 30vh;
-}
-/*gold colour : d7b21d */
+
+
+
 /* Partie II*/
 .partII {
     background: linear-gradient(to top, #F5A7A7, white);
