@@ -34,14 +34,11 @@ body {
 }
 /* Partie I*/
 .partI {
-    background-color: lightgrey;
-    display: flex;
-    flex-direction: column;
+    background-color: white;
 }
 /* Partie 0*/
 .partX {
-    background-image: url(../image/backgroundmain.jpg);
-    background-size: cover;
+    background: linear-gradient(to bottom, lightcoral,lightcoral, #F5A7A7, white);
 }
 .navbar {
   justify-content: space-between;
@@ -69,6 +66,10 @@ body {
 }
 .maintitle span :first-child {
 border-right: 2px solid white;
+}
+.lowpart img {
+  width: 10vh;
+  height:auto;
 }
 /* 1ere division*/
 .partI_id {
