@@ -40,7 +40,17 @@ body {
     display: flex;
     flex-direction: row;
 }
+.bold{
+  font-weight: bold;
+}
+.title {
+  font-family: "titles";
+}
+.underlign {
 
+  padding-bottom: 1vh;
+
+}
 /* Partie 0*/
 .partX {
     background: linear-gradient(to bottom, lightcoral,lightcoral, #F5A7A7, white), url('../image/effect.png');
@@ -87,42 +97,61 @@ border-right: 2px solid white;
 
 /* 1ere division*/
 .partI_id {
-  margin: 5vh;
+  justify-content: space-around;
+
 }
 .partI_id1 {
     border-right: 1.5px solid lightcoral;
-    width: 60%;
+    width: 70%;
     height: auto;
-    justify-content: space-around;
+
 }
-.partI_id1 :first-child img {
+.photo {
     height: 40vh;
-    width:auto;
+    width: 40vh;
     border-radius: 50%;
 }
-
-
-.parcours {
-    width: 50vh;
-    height: 45vh;
-    background-color: white;
-
-}
-.parcours h5 {
-    text-align: center;
-
-}
-
-.partI_id2 img {
-    width:85%;
-
-}
-.partI_id2{
+.partI_id_caption p{
+  text-align: left;
+  padding-left: 4vh;
+  line-height: 1.5;
+  align-items: center;
   margin: 0;
-  padding: 0;
 }
 
+.partI_studies img {
+    width:75%;
 
+}
+.partI_studies{
+  margin: 0;
+}
+.partI_id2 > h5, .partI_id2 > h6 , .partI_id2 > p {
+  margin: 0;
+  text-align: left;
+  line-height: 1.5;
+}
+.partI_id2 {
+    height: 30vh;
+    padding-left: 5vh;
+}
+.partI_id2 > p {
+  font-size: 1.1rem;
+}
+.text {
+
+}
+.logos{
+  padding: 0;
+  margin: 0;
+}
+.logos img {
+  height: 10vh;
+  margin: 3vh 3vh 0vh 3vh;
+}
+.underlign {
+
+}
 /* Partie II*/
 .partII {
   background: linear-gradient(to top, #F5A7A7, white);
