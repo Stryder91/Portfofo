@@ -215,8 +215,9 @@ border-right: 2px solid white;
   /*display:none*/
 }
 .mail_message {
+  padding: 5vh;
   width:80vh;
-  height: 50vh;
+  height: 30vh;
   background-color: white;
   border : 5px solid rgba(240,128,128,1.5);
   border-radius: 5px;
@@ -233,4 +234,15 @@ border-right: 2px solid white;
 .logos img:hover{
   border-radius: 50%;
   border: 4px dotted lightcoral;
+}
+.closeButton{
+  float:right;
+  color: grey;
+  font-size: 30px;
+  background-color: white;
+  border-style: none;
+}
+.closeButton:hover, .closeButton:focus{
+  color: black;
+  cursor: pointer;
 }
