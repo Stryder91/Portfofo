@@ -241,14 +241,17 @@ border-right: 2px solid white;
   display: none;
 }
 
-.closeButton{
+.closeButton, .closeButton2{
   float:right;
   color: grey;
   font-size: 30px;
   background: none;
   border-style: none;
 }
-.closeButton:hover, .closeButton:focus{
-  color: black;
+
+.closeButton:hover, .closeButton:focus, .closeButton2:hover, .closeButton2:focus{
+  color: white;
   cursor: pointer;
+  background-color: lightcoral;
+  border-radius: 10px;
 }
