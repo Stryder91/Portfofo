@@ -89,7 +89,6 @@ border-right: 2px solid white;
   width: 10vh;
   height:auto;
   animation: move 1s infinite linear;
-
 }
 @keyframes move {
   0%{
