@@ -40,3 +40,8 @@ number.classList.add("closing")
 }
 )
 //funciton
+
+
+
+
+/*main page buttons*/
