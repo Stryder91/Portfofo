@@ -201,3 +201,25 @@ border-right: 2px solid white;
   width: 61vh;
   height: 31vh;
 }
+
+
+
+/*modal messages*/
+
+.mail_message {
+  width:80vh;
+  height: 50vh;
+  background-color: #F5A7A7;
+  color:black;
+  position:absolute;
+  top: 130%;
+  left:33%;
+  box-shadow: 2px 2px 2px grey;
+
+  display: none;
+}
+
+.logos img:hover{
+  border-radius: 50%;
+  border: 4px dotted lightcoral;
+}
